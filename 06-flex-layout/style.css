@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  overflow-y: auto; /* to add a scrollable bar at the left hand-side for vertical scrolling */ 
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.header ul {
+  list-style: none;
+  padding: 8px;
+  margin:0;
+  
+}
+
+.header ul.right-links {
+  text-align: right;
+}
+.header ul li a {
+  text-decoration: none;
+  gap: 10px;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: gray;
+  margin-top: 15.4%;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 8px;
+  margin-bottom: 0;
+}
+
+.footer ul.right-links {
+  text-align: right;
+}
+.footer ul li a {
+  text-decoration: none;
+  gap: 10px;
+}
+
+.footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 50px;  
+  margin-bottom: 50px;
+  max-height: 80vh;  
+}
+
+.buttons {
+  /* margin-top: 10px;  ctrl + / automatically inserts comment  */
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  gap: 25px;
+}
+
+.buttons button {
+  width: 140px;
+  height: 40px;
+}
